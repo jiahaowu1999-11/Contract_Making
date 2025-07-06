@@ -12,8 +12,10 @@ public class HtmlToPdf {
 
     public static void main(String[] args) throws Exception {
 //        htmlFileToPDF();
+        for (int i = 0; i < 100; i++){
 
-        htmlStringToPdf();
+        }
+//        htmlStringToPdf();
     }
 
     /**

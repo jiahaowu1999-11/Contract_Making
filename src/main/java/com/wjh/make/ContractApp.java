@@ -1,9 +1,13 @@
 package com.wjh.make;
 
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class ContractApp {
     public static void main(String[] args) {
-        System.out.println("1111111111111");
-        System.out.println("1232");
+        SpringApplication.run(ContractApp.class);
 
     }
 }

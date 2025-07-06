@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quill Example</title>
+    <!-- 引入 wangEditor CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/wangeditor/dist/css/wangEditor.min.css">
+
+    <!-- 引入 wangEditor JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/wangeditor/dist/wangEditor.min.js"></script>
+    <script type="text/javascript">
+        var E = window.wangEditor;
+        var editor = new E('#editor');
+        editor.config({
+          menus: [
+            'bold',  // 粗体
+            'italic',  // 斜体
+            'underline',  // 下划线
+            'strikeThrough',  // 删除线
+            'foreColor',  // 文字颜色
+            'backColor',  // 背景颜色
+            'link',  // 插入链接
+            'list',  // 列表
+            'justify',  // 对齐方式
+            'quote',  // 引用
+            'emoticon',  // 表情
+            'image',  // 插入图片
+            'table',  // 表格
+            'code',  // 插入代码
+            'undo',  // 撤销
+            'redo'  // 重复
+          ]
+        });
+        editor.create();  // 创建编辑器
+    </script>
+</head>
+<body>
+<div id="editor"></div>
+
+</body>
+
+</html>

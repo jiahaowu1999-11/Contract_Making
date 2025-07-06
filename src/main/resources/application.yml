@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-black-lab-a8dde1xh-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_nyE6h2cTkDte
+    driver-class-name: org.postgresql.Driver
